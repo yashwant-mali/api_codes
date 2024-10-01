@@ -7,4 +7,6 @@ const user=[
     {id:3,name:'tejaswini mali', email:'tejaswinimali555@gmail.com'}
 ];
 
-app.get()
+app.get('/',(req,res)=>{
+req.send('welcome to my api');
+});
